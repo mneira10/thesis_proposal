@@ -13,20 +13,34 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3}Project Background}{1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1}Diego's thesis}{1}
+\contentsline {subsection}{\numberline {3.1}Diego's thesis - 2018-10}{1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2}Monitoria inv 2018-2}{1}
+\contentsline {subsection}{\numberline {3.2}research internship?? No se como ponerle a esto 2018-2}{3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}General objective}{1}
+\contentsline {subsubsection}{\numberline {3.2.1}Improvement on Diego's work}{3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Specific objectives}{1}
+\contentsline {subsubsection}{\numberline {3.2.2}PLAsTiCC - Kaggle competition}{3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1}Machine learning on light curves}{1}
+\contentsline {section}{\numberline {4}General objective}{3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2}Deep learning on light curves}{1}
+\contentsline {section}{\numberline {5}Specific objectives}{3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3}Deep learning on images}{1}
+\contentsline {subsection}{\numberline {5.1}Improvement of the light curve feature space}{3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6}Activities and schedule}{1}
+\contentsline {subsubsection}{\numberline {5.1.1}Feature pruning}{3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7}Expected results}{1}
+\contentsline {subsubsection}{\numberline {5.1.2}Addition of supernovae specific metrics}{4}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{SALT2}{4}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Skewed Gaussian}{4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2}Machine learning on light curves}{4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.3}Deep learning on light curves}{4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.4}Deep learning on images}{4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6}Activities and schedule}{4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7}Expected results}{4}

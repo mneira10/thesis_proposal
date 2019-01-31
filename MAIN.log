@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.17)  29 JAN 2019 17:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.17)  31 JAN 2019 09:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -761,6 +761,18 @@ LaTeX Info: Redefining \addtolength on input line 81.
 )
 \c@@todonotes@numberoftodonotes=\count124
 )
+(/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
+\ttl@box=\box39
+\beforetitleunit=\skip49
+\aftertitleunit=\skip50
+\ttl@plus=\dimen163
+\ttl@minus=\dimen164
+\ttl@toksa=\toks36
+\titlewidth=\dimen165
+\titlewidthlast=\dimen166
+\titlewidthfirst=\dimen167
+)
 (/usr/share/texlive/texmf-dist/tex/latex/tocbibind/tocbibind.sty
 Package: tocbibind 2010/10/13 v1.5k extra ToC listings
 Package tocbibind Info: The document has section divisions on input line 50.
@@ -867,14 +879,14 @@ Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 \blx@parenlevel@text=\count164
 \blx@parenlevel@foot=\count165
 \blx@sectionciteorder@0=\count166
-\labelnumberwidth=\skip49
-\labelalphawidth=\skip50
-\biblabelsep=\skip51
-\bibitemsep=\skip52
-\bibnamesep=\skip53
-\bibinitsep=\skip54
-\bibparsep=\skip55
-\bibhang=\skip56
+\labelnumberwidth=\skip51
+\labelalphawidth=\skip52
+\biblabelsep=\skip53
+\bibitemsep=\skip54
+\bibnamesep=\skip55
+\bibinitsep=\skip56
+\bibparsep=\skip57
+\bibhang=\skip58
 \blx@bcfin=\read2
 \blx@bcfout=\write5
 \c@mincomprange=\count167
@@ -956,12 +968,12 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \c@savedoriglanguage=\count301
 \c@pageref=\count302
 \c@savedpageref=\count303
-\shorthandwidth=\skip57
-\shortjournalwidth=\skip58
-\shortserieswidth=\skip59
-\shorttitlewidth=\skip60
-\shortauthorwidth=\skip61
-\shorteditorwidth=\skip62
+\shorthandwidth=\skip59
+\shortjournalwidth=\skip60
+\shortserieswidth=\skip61
+\shorttitlewidth=\skip62
+\shortauthorwidth=\skip63
+\shorteditorwidth=\skip64
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 
@@ -1056,34 +1068,34 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 
 \@quotelevel=\count315
 \@quotereset=\count316
-(./MAIN.aux)
+No file MAIN.aux.
 \openout1 = `MAIN.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
- (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count317
-\scratchdimen=\dimen163
-\scratchbox=\box39
+\scratchdimen=\dimen168
+\scratchbox=\box40
 \nofMPsegments=\count318
 \nofMParguments=\count319
-\everyMPshowfont=\toks36
+\everyMPshowfont=\toks37
 \MPscratchCnt=\count320
-\MPscratchDim=\dimen164
+\MPscratchDim=\dimen169
 \MPnumerator=\count321
 \makeMPintoPDFobject=\count322
-\everyMPtoPDFconversion=\toks37
+\everyMPtoPDFconversion=\toks38
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -1114,45 +1126,125 @@ Package biblatex Info: Data encoding 'utf8' specified.
 \openout5 = `MAIN-blx.bib'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'MAIN.bbl' found.
- (./MAIN.bbl)
-Package biblatex Info: Reference section=0 on input line 55.
-Package biblatex Info: Reference segment=0 on input line 55.
+Package biblatex Info: ... file 'MAIN.bbl' not found.
+
+No file MAIN.bbl.
+Package biblatex Info: Reference section=0 on input line 56.
+Package biblatex Info: Reference segment=0 on input line 56.
 <University_of_Los_Andes_logo.png, id=4, 325.215pt x 385.44pt>
 File: University_of_Los_Andes_logo.png Graphic file (type png)
 <use University_of_Los_Andes_logo.png>
-Package pdftex.def Info: University_of_Los_Andes_logo.png  used on input line 6
-9.
+Package pdftex.def Info: University_of_Los_Andes_logo.png  used on input line 7
+0.
 (pdftex.def)             Requested size: 117.00119pt x 138.66418pt.
- (./MAIN.toc [1
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--115
+|\OT1/cmr/bx/n/17.28 Contents|
+ []
+
+(./MAIN.toc [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./University_of_Los_Andes_
 logo.png>])
 \tf@toc=\write6
 \openout6 = `MAIN.toc'.
 
+ [2]
 
-[2] [1] [2] (./MAIN.aux)
+LaTeX Warning: Citation 'SN_darkEnergy' on page 1 undefined on input line 135.
+
+
+LaTeX Warning: Citation 'diegoThesis' on page 1 undefined on input line 143.
+
+
+Overfull \hbox (1.74107pt too wide) in paragraph at lines 143--144
+\OT1/cmr/m/n/12 dom forests on a fea-ture space cal-cu-lated from light curves 
+[[]].The
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 145.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 145.
+ [1] [2]
+
+LaTeX Warning: Reference `improvementDiego' on page 3 undefined on input line 1
+93.
+
+[3]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.200 
+      
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 201--202
+
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.204 
+      
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 205--206
+
+ []
+
+[4]
+
+LaTeX Warning: Empty bibliography on input line 217.
+
+(./MAIN.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package biblatex Warning: Please (re)run BibTeX on the file(s):
+(biblatex)                MAIN
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'MAIN.run.xml'.
 \openout1 = `MAIN.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 19982 strings out of 494923
- 381616 string characters out of 6180741
- 771083 words of memory out of 5000000
- 22945 multiletter control sequences out of 15000+600000
- 10165 words of font info for 36 fonts, out of 8000000 for 9000
+ 20263 strings out of 494923
+ 385161 string characters out of 6180741
+ 778085 words of memory out of 5000000
+ 23223 multiletter control sequences out of 15000+600000
+ 9818 words of font info for 35 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 62i,6n,56p,826b,1769s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,6n,56p,826b,1776s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on MAIN.pdf (4 pages, 73864 bytes).
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmti12.pfb>
+Output written on MAIN.pdf (6 pages, 111235 bytes).
 PDF statistics:
- 39 PDF objects out of 1000 (max. 8388607)
- 26 compressed objects within 1 object stream
+ 61 PDF objects out of 1000 (max. 8388607)
+ 42 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  18 words of extra memory for PDF output out of 10000 (max. 10000000)
 

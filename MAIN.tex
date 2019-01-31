@@ -37,6 +37,7 @@
 \usepackage{amsmath}
 \usepackage{graphicx}
 \usepackage[colorinlistoftodos]{todonotes}
+\usepackage{titlesec}
 %to include references in toc
 \usepackage[nottoc,numbib]{tocbibind}
 %bibliography package
@@ -136,12 +137,71 @@ some stufff \cite{SN_darkEnergy}
 \subsection{LSST}
 \section{Problem description}
 \section{Project Background}
-Antecedentes del proyecto (en términos de desarrollo previo desde el que separte)
 
-\subsection{Diego's thesis}
-\subsection{Monitoria inv 2018-2}
+\subsection{Diego's thesis - 2018-10}
+
+In the first semester of 2018, Diego Alejandro G\'omez Mosquera worked on ``Astronomical transient event recognition with machine learning'' using random forests on a feature space calculated from light curves \cite{diegoThesis}.The author focused on creating a feature space robust enough to distinguish the different transient classes. This was achieved primarily through geometric parameters that were extracted from the light curves. The features used (as found on the author's thesis) were: 
+\begin{itemize}
+  \item skew: Skewness.
+  \item kurtosis: Kurtosis.
+  \item small kurtosis: Small sample kurtosis.
+  \item std: Standard deviation.
+  \item beyond1std: Percentage of magnitudes beyond one standard deviation from the weighted mean. Each weights is calculated as the inverse of the corresponding photometric error.
+  \item stetson j: The Welch-Stetson J variability index [39]. A robust standard deviation.
+  \item stetson k: The Welch-Stetson K variability index [39]. A robust kurtosis measure.
+  \item max slope: Maximum absolute slope (delta magnitude over deltatime) between two consecutive observations.
+  \item amplitude: Difference between maximum and minimum magnitudes.
+  \item median absolute deviation:from the median magnitude.
+  \item median buffer range percentage: Percentage of points within 10\% of the median magnitude.
+  \item pair slope trend: Percentage of all pairs of consecutive magnitude measurements that have positive slope.
+  \item percent amplitude: Largest percentage difference between the absolute maximum magnitude and the median.
+  \item percent difference flux percentile: Ratio of F 5,95 and the median flux.
+  \item flux percentile ratio mid20: Ratio F 40,60 /F 5,95
+  \item flux percentile ratio mid35: Ratio F 32.5,67.5 /F 5,95
+  \item flux percentile ratio mid50: Ratio F 25,75 /F 5,95
+  \item flux percentile ratio mid65: Ratio F 17.5,82.5 /F 5,95
+  \item flux percentile ratio mid80: Ratio F 10,90 /F 5,95
+  \item poly1 a: Coefficient of the linear term in monomial curve fitting.
+  \item poly2 a: Coefficient of the cuadratic term in cuadratic curve fitting.
+  \item poly2 b: Coefficient of the linear term in cuadratic curve fitting.
+  \item poly3 a: Coefficient of the cubic term in cubic curve fitting.
+  \item poly3 b: Coefficient of the cuadratic term in cubic curve fitting.
+  \item poly3 c: Coefficient of the linear term in cubic curve fitting.
+  \item poly4 a: Coefficient of the quartic term in quartic curve fitting.
+  \item poly4 b: Coefficient of the cubic term in quartic curve fitting.
+  \item poly4 c: Coefficient of the cuadratic term in quartic curve fitting.
+  \item poly4 d: Coefficient of the linear term in quartic curve fitting.
+\end{itemize}
+
+The results from the authors thesis will not be presented here as a bug overrating the classification was found as will be discussed in the following section.
+
+\subsection{research internship?? No se como ponerle a esto 2018-2}
+
+\subsubsection{Improvement on Diego's work}\label{improvementDiego}
+Diego's work was continued and improved during this semester with the mentorship of Marcela Hern\'andez, Jaime Forero and Pablo Arbelaez. 
+
+\subsubsection{PLAsTiCC - Kaggle competition}
+
+
 \section{General objective}
 \section{Specific objectives}
+
+\subsection{Improvement of the light curve feature space}
+
+\subsubsection{Feature pruning}
+
+After seeing the results in \ref{improvementDiego}, \textbf{REVISAR ESTO}, it was clear that the higher order coefficients in the polynomial fits did not contribute significantly to the correct classification in the feature space. In fact, these features could be harming the classification process. Thus, coefficients resulting from $3^{rd}$ and $4^{th}$ degree polynomial fitting will be removed and the random forest algorithm will be rerun. The classification metrics should improve but experimentation is needed to confirm the hypothesis.  
+
+\subsubsection{Addition of supernovae specific metrics}
+
+To improve the classification of supernovae, metrics that target their specific light curve behavior are needed. In particular, there are functions that are known to approximate the light curve produced by a supernova. These functions are presented below: 
+
+\paragraph{SALT2} - \textbf{REFERENCES AND FUNCTION NEEDED HERE}\\
+
+\paragraph{Skewed Gaussian} - \textbf{REFERENCES AND FUNCTION NEEDED HERE} \\ 
+
+When these functions are fit to supernovae data, the resulting $\chi^2$ should be considerably lower than the $\chi^2$ calculated from non-supernovae fits. Consequently, the addition of the two $\chi^2$  values from each of the functions should improve the binary classification of supernovae but as stated above, experimentation is needed for verification.
+
 \subsection{Machine learning on light curves}
 \subsection{Deep learning on light curves}
 \subsection{Deep learning on images}
