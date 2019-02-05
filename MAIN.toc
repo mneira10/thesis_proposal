@@ -43,6 +43,6 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {5.3.2}CNNs and RNNs}{5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6}Activities and schedule}{5}
+\contentsline {section}{\numberline {6}Activities and schedule}{6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7}Expected results}{5}
+\contentsline {section}{\numberline {7}Expected results}{6}

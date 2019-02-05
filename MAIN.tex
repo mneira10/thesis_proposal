@@ -38,6 +38,7 @@
 \usepackage{graphicx}
 \usepackage[colorinlistoftodos]{todonotes}
 \usepackage{titlesec}
+\usepackage{float}
 %to include references in toc
 \usepackage[nottoc,numbib]{tocbibind}
 %bibliography package
@@ -240,9 +241,11 @@ Implementing a succesful CNN is only half of the problem. Each object has multip
 
 Since the amount of images per object is not fixed, a RNN will need to be used. Thus, the CNN will extract descriptors from the images and then those descriptors will be fed in chronological order along with the date of when the image was taken into the RNN for classification. The architecture is depicted below:
 
-
-
-\textbf{DIAGRAM?}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=1.05\textwidth]{CNNRNNDiagram.png}
+  \caption{Architecture for classifying astronomical objects from multiple images.}
+\end{figure}
 
 \section{Activities and schedule}
 \section{Expected results}

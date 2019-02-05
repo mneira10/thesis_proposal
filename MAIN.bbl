@@ -391,5 +391,34 @@
     \endverb
     \field{year}{2013}
   \endentry
+
+  \entry{CNN}{article}{}
+    \name{author}{2}{}{%
+      {{hash=WC}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Chen},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=XY}{%
+         family={Xi},
+         familyi={X\bibinitperiod},
+         given={Yang},
+         giveni={Y\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WCXY1}
+    \strng{fullhash}{WCXY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Convolutional {{Neural Network}} for {{Image
+  Classification}}}
+    \field{volume}{21218}
+    \verb{file}
+    \verb /home/mauro/Zotero/storage/ST4K6IS3/Wang and Xi - Convolutional Neura
+    \verb l Network for Image Classificat.pdf
+    \endverb
+    \field{journaltitle}{Johns Hopkins University Baltimore, MD}
+  \endentry
 \enddatalist
 \endinput
