@@ -196,14 +196,34 @@ After seeing the results in \ref{improvementDiego}, \textbf{REVISAR ESTO}, it wa
 
 To improve the classification of supernovae, metrics that target their specific light curve behavior are needed. In particular, there are functions that are known to approximate the light curve produced by a supernova. These functions are presented below: 
 
-\paragraph{SALT2} - \textbf{REFERENCES AND FUNCTION NEEDED HERE}\\
+\paragraph{SALT2} is ``an empirical model of Type Ia supernovae spectro-photometric evolution with time''\cite{salt2}. This model should be better adjusted for type 1A supernovas than the rest of objects. The mathematical model of the function is the following\cite{salt2}:
 
-\paragraph{Skewed Gaussian} - \textbf{REFERENCES AND FUNCTION NEEDED HERE} \\ 
+\[
+  F(S,N,p,\lambda) = x_0 \times [M_0(p,\lambda)+x_1M_1(p,\lambda)+...]\times exp[cCL(\lambda)]
+\]
+
+\paragraph{Skewed Gaussian} fits of the form:
+
+\[f^k(t) = A^k \frac{exp-(t-t_0^k/\tau^k_{fall})}{1+exp-(t-t^k_0)\tau^k_{rise}}\]
+
+have been shown to resemble well a generalized supernova curve \cite{sGaussian}. It should also approximate the shape of supernova light curves better than those that belong to other classes.\\
 
 When these functions are fit to supernovae data, the resulting $\chi^2$ should be considerably lower than the $\chi^2$ calculated from non-supernovae fits. Consequently, the addition of the two $\chi^2$  values from each of the functions should improve the binary classification of supernovae but as stated above, experimentation is needed for verification.
 
-\subsection{Machine learning on light curves}
 \subsection{Deep learning on light curves}
+
+For the time being, the classification pipeline has had 3 steps:
+
+\begin{enumerate}
+  \item Clean and filter light curves
+  \item Calculate features from clean light curves
+  \item Classify the objects on the feature space
+\end{enumerate}
+
+When the feature space is calculated, a large quantity of information is lost. The features might be good descriptors of the objects but they will never be able to encapsulate the point-by-point data that the light curves have. Additionally, traditional machine learning methods, like the random forest classifier previously implemented, are unable to handle varying length input. To take advantage of all the information present in the light curves, a new approach is needed.\\
+
+Recurrent neural networks (RNN) have been shown to be able to classify sequential data to a good extent. Speech recognition has been one of the fields with most progress\cite{RNN}. A RNN like the long short term memory (LSTM) RNN or the gated recurrent unit (GRU) RNN are state of the art RNN's that seem promising for this purpose. Thus, several implementations of these networks will be carried out along with their hyperparameter tuning. 
+
 \subsection{Deep learning on images}
 \section{Activities and schedule}
 \section{Expected results}

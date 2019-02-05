@@ -22,45 +22,45 @@ Warning--I didn't find a database entry for "SN_darkEnergy"
 Biblatex version: 3.8
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 2 entries,
+You've used 5 entries,
             6268 wiz_defined-function locations,
-            1187 strings with 8892 characters,
-and the built_in function-call counts, 4439 in all, are:
-= -- 218
-> -- 134
-< -- 22
-+ -- 95
-- -- 45
-* -- 211
-:= -- 536
+            1225 strings with 13500 characters,
+and the built_in function-call counts, 49384 in all, are:
+= -- 4019
+> -- 647
+< -- 84
++ -- 1810
+- -- 309
+* -- 3719
+:= -- 6419
 add.period$ -- 0
-call.type$ -- 2
-change.case$ -- 7
-chr.to.int$ -- 36
-cite$ -- 2
-duplicate$ -- 414
-empty$ -- 437
-format.name$ -- 48
-if$ -- 953
+call.type$ -- 5
+change.case$ -- 33
+chr.to.int$ -- 48
+cite$ -- 8
+duplicate$ -- 5761
+empty$ -- 3995
+format.name$ -- 567
+if$ -- 9093
 int.to.chr$ -- 0
-int.to.str$ -- 2
+int.to.str$ -- 9
 missing$ -- 0
-newline$ -- 40
-num.names$ -- 38
-pop$ -- 371
+newline$ -- 352
+num.names$ -- 159
+pop$ -- 1739
 preamble$ -- 1
-purify$ -- 10
+purify$ -- 113
 quote$ -- 0
-skip$ -- 207
+skip$ -- 771
 stack$ -- 0
-substring$ -- 288
-swap$ -- 108
-text.length$ -- 34
+substring$ -- 7158
+swap$ -- 1042
+text.length$ -- 126
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 56
+type$ -- 158
 warning$ -- 0
-while$ -- 84
+while$ -- 890
 width$ -- 0
-write$ -- 39
+write$ -- 348
 (There was 1 warning)

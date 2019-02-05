@@ -35,12 +35,10 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Skewed Gaussian}{4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2}Machine learning on light curves}{4}
+\contentsline {subsection}{\numberline {5.2}Deep learning on light curves}{4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3}Deep learning on light curves}{4}
+\contentsline {subsection}{\numberline {5.3}Deep learning on images}{5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4}Deep learning on images}{4}
+\contentsline {section}{\numberline {6}Activities and schedule}{5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6}Activities and schedule}{4}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7}Expected results}{4}
+\contentsline {section}{\numberline {7}Expected results}{5}

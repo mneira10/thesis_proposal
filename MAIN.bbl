@@ -1,0 +1,395 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{none/global//global/global}
+  \entry{diegoThesis}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=GD}{%
+         family={Gomez},
+         familyi={G\bibinitperiod},
+         given={Diego},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \keyw{diego}
+    \strng{namehash}{GD1}
+    \strng{fullhash}{GD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{shorttitle}{Astronomical {{Transient Recognition}} Using {{Machine}}
+  Learning and {{Catalina Real Time Survey}} Dataset.}
+    \field{title}{Astronomical {{Transient Recognition}} Using {{Machine}}
+  Learning and {{Catalina Real Time Survey}} Dataset.:
+  Diegoalejogm/Crts-Transient-Recognition}
+    \field{month}{09}
+    \field{year}{2018}
+  \endentry
+
+  \entry{salt2}{article}{}
+    \name{author}{25}{}{%
+      {{hash=GJ}{%
+         family={Guy},
+         familyi={G\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=AP}{%
+         family={Astier},
+         familyi={A\bibinitperiod},
+         given={P.},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=BS}{%
+         family={Baumont},
+         familyi={B\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=HD}{%
+         family={Hardin},
+         familyi={H\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=PR}{%
+         family={Pain},
+         familyi={P\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=RN}{%
+         family={Regnault},
+         familyi={R\bibinitperiod},
+         given={N.},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=BS}{%
+         family={Basa},
+         familyi={B\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=CRG}{%
+         family={Carlberg},
+         familyi={C\bibinitperiod},
+         given={R.\bibnamedelima G.},
+         giveni={R\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=CA}{%
+         family={Conley},
+         familyi={C\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=FS}{%
+         family={Fabbro},
+         familyi={F\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=FD}{%
+         family={Fouchez},
+         familyi={F\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=HIM}{%
+         family={Hook},
+         familyi={H\bibinitperiod},
+         given={I.\bibnamedelima M.},
+         giveni={I\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=HDA}{%
+         family={Howell},
+         familyi={H\bibinitperiod},
+         given={D.\bibnamedelima A.},
+         giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=PK}{%
+         family={Perrett},
+         familyi={P\bibinitperiod},
+         given={K.},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=PCJ}{%
+         family={Pritchet},
+         familyi={P\bibinitperiod},
+         given={C.\bibnamedelima J.},
+         giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=RJ}{%
+         family={Rich},
+         familyi={R\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=SM}{%
+         family={Sullivan},
+         familyi={S\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=AP}{%
+         family={Antilogus},
+         familyi={A\bibinitperiod},
+         given={P.},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=AE}{%
+         family={Aubourg},
+         familyi={A\bibinitperiod},
+         given={E.},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=BG}{%
+         family={Bazin},
+         familyi={B\bibinitperiod},
+         given={G.},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=BJ}{%
+         family={Bronder},
+         familyi={B\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=FM}{%
+         family={Filiol},
+         familyi={F\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=PN}{%
+         family={{Palanque-Delabrouille}},
+         familyi={P\bibinitperiod},
+         given={N.},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=RP}{%
+         family={Ripoche},
+         familyi={R\bibinitperiod},
+         given={P.},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=RV}{%
+         family={{Ruhlmann-Kleider}},
+         familyi={R\bibinitperiod},
+         given={V.},
+         giveni={V\bibinitperiod},
+      }}%
+    }
+    \keyw{Astrophysics}
+    \strng{namehash}{GJ+1}
+    \strng{fullhash}{GJAPBSHDPRRNBSCRGCAFSFDHIMHDAPKPCJRJSMAPAEBGBJFMPNRPRV1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{abstract}{%
+    We present an empirical model of Type Ia supernovae spectro-photometric
+  evolution with time. The model is built using a large data set including
+  light-curves and spectra of both nearby and distant supernovae, the latter
+  being observed by the SNLS collaboration. We derive the average spectral
+  sequence of Type Ia supernovae and their main variability components
+  including a color variation law. The model allows us to measure distance
+  moduli in the spectral range 2500-8000 A with calculable uncertainties,
+  including those arising from variability of spectral features. Thanks to the
+  use of high-redshift SNe to model the rest-frame UV spectral energy
+  distribution, we are able to derive improved distance estimates for SNe Ia in
+  the redshift range 0.8$<$z$<$1.1. The model can also be used to improve
+  spectroscopic identification algorithms, and derive photometric redshifts of
+  distant Type Ia supernovae.%
+    }
+    \verb{doi}
+    \verb 10.1051/0004-6361:20066930
+    \endverb
+    \verb{eprint}
+    \verb astro-ph/0701828
+    \endverb
+    \field{issn}{0004-6361, 1432-0746}
+    \field{number}{1}
+    \field{pages}{11\bibrangedash 21}
+    \field{shorttitle}{{{SALT2}}}
+    \field{title}{{{SALT2}}: Using Distant Supernovae to Improve the Use of
+  {{Type Ia}} Supernovae as Distance Indicators}
+    \field{volume}{466}
+    \verb{file}
+    \verb /home/mauro/Zotero/storage/G3FHBHMR/Guy et al. - 2007 - SALT2 using d
+    \verb istant supernovae to improve the use.pdf;/home/mauro/Zotero/storage/Z
+    \verb 5E5YHCC/0701828.html
+    \endverb
+    \field{journaltitle}{Astronomy \& Astrophysics}
+    \field{eprinttype}{arxiv}
+    \field{month}{04}
+    \field{year}{2007}
+    \warn{\item Can't use 'eprinttype' + 'archiveprefix'}
+  \endentry
+
+  \entry{sGaussian}{article}{}
+    \name{author}{9}{}{%
+      {{hash=MA}{%
+         family={M\"oller},
+         familyi={M\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=RV}{%
+         family={{Ruhlmann-Kleider}},
+         familyi={R\bibinitperiod},
+         given={V.},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=LC}{%
+         family={Leloup},
+         familyi={L\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=NJ}{%
+         family={Neveu},
+         familyi={N\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=PN}{%
+         family={{Palanque-Delabrouille}},
+         familyi={P\bibinitperiod},
+         given={N.},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=RJ}{%
+         family={Rich},
+         familyi={R\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=CR}{%
+         family={Carlberg},
+         familyi={C\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=LC}{%
+         family={Lidman},
+         familyi={L\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=PC}{%
+         family={Pritchet},
+         familyi={P\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \keyw{Astrophysics - Cosmology and Nongalactic Astrophysics,Astrophysics -
+  Instrumentation and Methods for Astrophysics}
+    \strng{namehash}{MA+1}
+    \strng{fullhash}{MARVLCNJPNRJCRLCPC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    In the era of large astronomical surveys, photometric classification of
+  supernovae (SNe) has become an important research field due to limited
+  spectroscopic resources for candidate follow-up and classification. In this
+  work, we present a method to photometrically classify type Ia supernovae
+  based on machine learning with redshifts that are derived from the SN
+  light-curves. This method is implemented on real data from the SNLS deferred
+  pipeline, a purely photometric pipeline that identifies SNe Ia at
+  high-redshifts (\$0.2$<$z$<$1.1\$). Our method consists of two stages:
+  feature extraction (obtaining the SN redshift from photometry and estimating
+  light-curve shape parameters) and machine learning classification. We study
+  the performance of different algorithms such as Random Forest and Boosted
+  Decision Trees. We evaluate the performance using SN simulations and real
+  data from the first 3 years of the Supernova Legacy Survey (SNLS), which
+  contains large spectroscopically and photometrically classified type Ia
+  samples. Using the Area Under the Curve (AUC) metric, where perfect
+  classification is given by 1, we find that our best-performing classifier
+  (Extreme Gradient Boosting Decision Tree) has an AUC of \$0.98\$. We show
+  that it is possible to obtain a large photometrically selected type Ia SN
+  sample with an estimated contamination of less than \$5$\backslash$\%\$. When
+  applied to data from the first three years of SNLS, we obtain 529 events. We
+  investigate the differences between classifying simulated SNe, and real SN
+  survey data. In particular, we find that applying a thorough set of selection
+  cuts to the SN sample is essential for good classification. This work
+  demonstrates for the first time the feasibility of machine learning
+  classification in a high-\$z\$ SN survey with application to real SN data.%
+    }
+    \verb{doi}
+    \verb 10.1088/1475-7516/2016/12/008
+    \endverb
+    \verb{eprint}
+    \verb 1608.05423
+    \endverb
+    \field{issn}{1475-7516}
+    \field{number}{12}
+    \field{pages}{008\bibrangedash 008}
+    \field{title}{Photometric Classification of Type {{Ia}} Supernovae in the
+  {{SuperNova Legacy Survey}} with Supervised Learning}
+    \field{volume}{2016}
+    \verb{file}
+    \verb /home/mauro/Zotero/storage/IZ48CKGS/Möller et al. - 2016 - Photometr
+    \verb ic classification of type Ia supernovae i.pdf;/home/mauro/Zotero/stor
+    \verb age/FFZBHDTN/1608.html
+    \endverb
+    \field{journaltitle}{Journal of Cosmology and Astroparticle Physics}
+    \field{eprinttype}{arxiv}
+    \field{month}{12}
+    \field{year}{2016}
+    \warn{\item Can't use 'eprinttype' + 'archiveprefix'}
+  \endentry
+
+  \entry{RNN}{inproceedings}{}
+    \name{author}{3}{}{%
+      {{hash=GA}{%
+         family={Graves},
+         familyi={G\bibinitperiod},
+         given={Alex},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=MAr}{%
+         family={Mohamed},
+         familyi={M\bibinitperiod},
+         given={Abdel-rahman},
+         giveni={A\bibinitperiod-r\bibinitperiod},
+      }}%
+      {{hash=HG}{%
+         family={Hinton},
+         familyi={H\bibinitperiod},
+         given={Geoffrey},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{IEEE}}%
+    }
+    \strng{namehash}{GA+1}
+    \strng{fullhash}{GAMArHG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{Acoustics, Speech and Signal Processing (Icassp), 2013
+  Ieee International Conference On}
+    \field{pages}{6645\bibrangedash 6649}
+    \field{title}{Speech Recognition with Deep Recurrent Neural Networks}
+    \verb{file}
+    \verb /home/mauro/Zotero/storage/8MEJTLNQ/Graves et al. - 2013 - Speech rec
+    \verb ognition with deep recurrent neural netw.pdf;/home/mauro/Zotero/stora
+    \verb ge/YRUZKEPW/6638947.html
+    \endverb
+    \field{year}{2013}
+  \endentry
+\enddatalist
+\endinput
