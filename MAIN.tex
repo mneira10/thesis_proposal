@@ -225,6 +225,25 @@ When the feature space is calculated, a large quantity of information is lost. T
 Recurrent neural networks (RNN) have been shown to be able to classify sequential data to a good extent. Speech recognition has been one of the fields with most progress\cite{RNN}. A RNN like the long short term memory (LSTM) RNN or the gated recurrent unit (GRU) RNN are state of the art RNN's that seem promising for this purpose. Thus, several implementations of these networks will be carried out along with their hyperparameter tuning. 
 
 \subsection{Deep learning on images}
+
+\subsubsection{CNNs}
+
+So far, all the classification has been done on the objects' photometric light curves. The light curves, however, are not the raw data. These were calculated from the images that were taken by the telescopes. \textbf{AGAIN, LINK HERE}. Ideally, to minimize data loss, the classification process should be done on the raw data i.e. the images.\\ 
+
+The state of the art algorithms used for classifying images are known as convolutional neural networks (CNNs) \cite{CNN} and have had wide success on large variety of problems.\\
+
+The first step to correctly classify the images will be to implement a baseline CNN algorithm. Once its classification  metrics are established, a thorough search through the hyperparameter space will be carried out to maximize the classification metrics.
+
+\subsubsection{CNNs and RNNs}
+
+Implementing a succesful CNN is only half of the problem. Each object has multiple images taken at different instances in time. To fully exploit the available information, multiple images need to be used as input for each object.\\
+
+Since the amount of images per object is not fixed, a RNN will need to be used. Thus, the CNN will extract descriptors from the images and then those descriptors will be fed in chronological order along with the date of when the image was taken into the RNN for classification. The architecture is depicted below:
+
+
+
+\textbf{DIAGRAM?}
+
 \section{Activities and schedule}
 \section{Expected results}
 
