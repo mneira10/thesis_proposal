@@ -22,45 +22,45 @@ Warning--I didn't find a database entry for "SN_darkEnergy"
 Biblatex version: 3.8
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 6 entries,
+You've used 7 entries,
             6268 wiz_defined-function locations,
-            1232 strings with 13737 characters,
-and the built_in function-call counts, 53507 in all, are:
-= -- 4250
+            1236 strings with 13883 characters,
+and the built_in function-call counts, 54877 in all, are:
+= -- 4284
 > -- 746
-< -- 105
-+ -- 1917
-- -- 351
-* -- 3986
-:= -- 6813
+< -- 114
++ -- 1918
+- -- 353
+* -- 4015
+:= -- 6837
 add.period$ -- 0
-call.type$ -- 6
+call.type$ -- 7
 change.case$ -- 39
 chr.to.int$ -- 48
-cite$ -- 10
-duplicate$ -- 6281
-empty$ -- 4393
+cite$ -- 12
+duplicate$ -- 6473
+empty$ -- 4631
 format.name$ -- 638
-if$ -- 9934
+if$ -- 10268
 int.to.chr$ -- 0
-int.to.str$ -- 11
+int.to.str$ -- 12
 missing$ -- 0
-newline$ -- 380
+newline$ -- 387
 num.names$ -- 197
-pop$ -- 2089
+pop$ -- 2419
 preamble$ -- 1
 purify$ -- 125
 quote$ -- 0
-skip$ -- 923
+skip$ -- 988
 stack$ -- 0
-substring$ -- 7440
-swap$ -- 1162
-text.length$ -- 149
+substring$ -- 7443
+swap$ -- 1209
+text.length$ -- 158
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 192
+type$ -- 226
 warning$ -- 0
-while$ -- 945
+while$ -- 947
 width$ -- 0
-write$ -- 375
+write$ -- 381
 (There was 1 warning)

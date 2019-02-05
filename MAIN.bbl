@@ -392,6 +392,13 @@
     \field{year}{2013}
   \endentry
 
+  \entry{catalinaImages}{misc}{}
+  \field{howpublished}{http://nesssi.cacr.caltech.edu/catalina/CRTSII\_SNCV.html\#table26}
+    \verb{file}
+    \verb /home/mauro/Zotero/storage/4MDJYLLW/CRTSII_SNCV.html
+    \endverb
+  \endentry
+
   \entry{CNN}{article}{}
     \name{author}{2}{}{%
       {{hash=WC}{%
