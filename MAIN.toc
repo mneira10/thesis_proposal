@@ -3,46 +3,48 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1}Introduction}{1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1}Transient objects}{1}
+\contentsline {subsection}{\numberline {1.1}Astronomy}{1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.1.1}Supernovae}{1}
+\contentsline {subsubsection}{\numberline {1.1.1}Light curves}{1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2}LSST}{1}
+\contentsline {subsubsection}{\numberline {1.1.2}Supernovae}{2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2}Problem description}{1}
+\contentsline {subsection}{\numberline {1.2}LSST}{2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3}Project Background}{1}
+\contentsline {section}{\numberline {2}Problem description}{3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1}Diego's thesis - 2018-10}{1}
+\contentsline {section}{\numberline {3}Project Background}{3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2}research internship?? No se como ponerle a esto 2018-2}{3}
+\contentsline {subsection}{\numberline {3.1}Diego's thesis - 2018-10}{3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.2.1}Improvement on Diego's work}{3}
+\contentsline {subsection}{\numberline {3.2}research internship?? No se como ponerle a esto 2018-2}{5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.2.2}PLAsTiCC - Kaggle competition}{3}
+\contentsline {subsubsection}{\numberline {3.2.1}Improvement on Diego's work}{5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}General objective}{3}
+\contentsline {subsubsection}{\numberline {3.2.2}PLAsTiCC - Kaggle competition}{5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Specific objectives}{3}
+\contentsline {section}{\numberline {4}General objective}{5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1}Improvement of the light curve feature space}{3}
+\contentsline {section}{\numberline {5}Specific objectives}{5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.1.1}Feature pruning}{3}
+\contentsline {subsection}{\numberline {5.1}Improvement of the light curve feature space}{5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.1.2}Addition of supernovae specific metrics}{4}
+\contentsline {subsubsection}{\numberline {5.1.1}Feature pruning}{5}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{SALT2}{4}
+\contentsline {subsubsection}{\numberline {5.1.2}Addition of supernovae specific metrics}{5}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Skewed Gaussian}{4}
+\contentsline {paragraph}{SALT2}{6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2}Deep learning on light curves}{4}
+\contentsline {paragraph}{Skewed Gaussian}{6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3}Deep learning on images}{5}
+\contentsline {subsection}{\numberline {5.2}Deep learning on light curves}{6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.3.1}CNNs}{5}
+\contentsline {subsection}{\numberline {5.3}Deep learning on images}{7}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.3.2}CNNs and RNNs}{6}
+\contentsline {subsubsection}{\numberline {5.3.1}CNNs}{7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6}Activities and schedule}{6}
+\contentsline {subsubsection}{\numberline {5.3.2}CNNs and RNNs}{7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7}Expected results}{6}
+\contentsline {section}{\numberline {6}Activities and schedule}{8}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7}Expected results}{8}

@@ -42,7 +42,12 @@
 %to include references in toc
 \usepackage[nottoc,numbib]{tocbibind}
 %bibliography package
-\usepackage[backend=bibtex,style=nature]{biblatex}
+\usepackage[backend=bibtex,style=nature,block=ragged]{biblatex}
+
+% \usepackage{url}
+% \def\UrlBreaks{\do\/\do-}
+% \usepackage{breakurl}
+% \usepackage[breaklinks]{hyperref}
 %----------------------------------------------------------------------------------------
 %	BIBLIOGRAPHY
 %----------------------------------------------------------------------------------------
@@ -124,18 +129,43 @@ Marcela Hernández Hoyos, Ph.D. % Supervisor's Name
 
 \section{Introduction}
 
+This project focuses on automatic transient object detection. This section will briefly outline the basic concepts needed to understand the motivation and reasoning behind it. 
 
+\subsection{Astronomy}
 
-\subsection{Transient objects}
+Astronomy is the field of science that studies celestial objects i.e. starts, planets, matter, etc. Outside of earth. These objects emit electromagnetic radiation all across the electromagnetic spectrum. Measurements of this radiation have been made with a  wide variety of instruments and a lot of data has been recorded. \\
 
+Usually, the data is recorded in \textit{surveys} where various telescopes scan the sky through many days. Of of these surveys is the subject of this papers investigation known as the ``Catalina Real Time Survey''\cite{catalina}. In this database, the intensity of radiation of various objects was recorded at different time intervals. The group of points collected for a particular object is known as a light curve.\\
 
-Two groups [1,2] have presented strong evidence that the expansion of the Universe is speeding up, rather than
-slowing down. It comes in the form of distance measurements to some fifty supernovae of type Ia (SNe Ia),
+\subsubsection{Light curves}
 
+After recording the intensity of emitted radiation of an object several times, it is possible to plot the result in a scatterplot. The following image is an example of a light curve of a type 1a supernova:
 
-some stufff \cite{SN_darkEnergy}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.8\textwidth]{snlightcurve.jpeg}c
+  \caption{Light curve for a supernova type 1a \cite{snlightcurve}.}
+\end{figure}
+
+Light curves hold a lot of information about the behavior of the object and can be used to identify the type of object \cite{lc1,lc2}. A big part of this project is dedicated to classifying objects based on their light curve. 
+
 \subsubsection{Supernovae}
+
+Supernovae, specially type 1a supernovae, are of immense importance in present day astrophysics. They are used as ``standard candles''\footnote{A standard candle is a celestial object whose properties are optimal to measure large distances in the universe with high precision. } to estimate the rate of expansion of the universe \cite{expansion}. So far, they have been used to pin down the cosmological constant (also known as Hubble's constant) to demonstrate the accelerating expansion of the universe; ``implying the existence of a nearly uniform component of dark energy''\cite{darkEnergy}.\\
+
+Finding and studying supernovae not only sheds light into their nature, it has implications that stretch out to the inner workings of the universe.
+
 \subsection{LSST}
+
+The Large Synoptic Survey Telescope is a project that will begin operating in 2020 and has four main goals\cite{LSST}: 
+
+\begin{enumerate}
+  \item Probing dark energy and dark matter
+  \item Taking an inventory of the Solar System
+  \item Exploring the transient optical sky
+  \item Mapping the Milky Way
+\end{enumerate}
+
 \section{Problem description}
 \section{Project Background}
 

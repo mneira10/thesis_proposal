@@ -18,49 +18,47 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: MAIN-blx.bib
 Database file #2: ThesisProposal.bib
-Warning--I didn't find a database entry for "SN_darkEnergy"
 Biblatex version: 3.8
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 7 entries,
+You've used 14 entries,
             6268 wiz_defined-function locations,
-            1236 strings with 13883 characters,
-and the built_in function-call counts, 54877 in all, are:
-= -- 4284
-> -- 746
-< -- 114
-+ -- 1918
-- -- 353
-* -- 4015
-:= -- 6837
+            1278 strings with 15837 characters,
+and the built_in function-call counts, 97277 in all, are:
+= -- 7450
+> -- 1222
+< -- 205
++ -- 3229
+- -- 587
+* -- 7020
+:= -- 11611
 add.period$ -- 0
-call.type$ -- 7
-change.case$ -- 39
+call.type$ -- 14
+change.case$ -- 73
 chr.to.int$ -- 48
-cite$ -- 12
-duplicate$ -- 6473
-empty$ -- 4631
-format.name$ -- 638
-if$ -- 10268
+cite$ -- 26
+duplicate$ -- 11547
+empty$ -- 8599
+format.name$ -- 1094
+if$ -- 18454
 int.to.chr$ -- 0
-int.to.str$ -- 12
+int.to.str$ -- 23
 missing$ -- 0
-newline$ -- 387
-num.names$ -- 197
-pop$ -- 2419
+newline$ -- 660
+num.names$ -- 349
+pop$ -- 4982
 preamble$ -- 1
-purify$ -- 125
+purify$ -- 219
 quote$ -- 0
-skip$ -- 988
+skip$ -- 1817
 stack$ -- 0
-substring$ -- 7443
-swap$ -- 1209
-text.length$ -- 158
+substring$ -- 12891
+swap$ -- 2190
+text.length$ -- 277
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 226
+type$ -- 464
 warning$ -- 0
-while$ -- 947
+while$ -- 1577
 width$ -- 0
-write$ -- 381
-(There was 1 warning)
+write$ -- 647

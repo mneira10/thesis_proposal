@@ -17,6 +17,281 @@
 \endgroup
 
 \datalist[entry]{none/global//global/global}
+  \entry{catalina}{article}{}
+    \name{author}{10}{}{%
+      {{hash=DAJ}{%
+         family={Drake},
+         familyi={D\bibinitperiod},
+         given={A.\bibnamedelima J.},
+         giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=DSG}{%
+         family={Djorgovski},
+         familyi={D\bibinitperiod},
+         given={S.\bibnamedelima G.},
+         giveni={S\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=MA}{%
+         family={Mahabal},
+         familyi={M\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=BE}{%
+         family={Beshore},
+         familyi={B\bibinitperiod},
+         given={E.},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=LS}{%
+         family={Larson},
+         familyi={L\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=GMJ}{%
+         family={Graham},
+         familyi={G\bibinitperiod},
+         given={M.\bibnamedelima J.},
+         giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=WR}{%
+         family={Williams},
+         familyi={W\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=CE}{%
+         family={Christensen},
+         familyi={C\bibinitperiod},
+         given={E.},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=CM}{%
+         family={Catelan},
+         familyi={C\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=BA}{%
+         family={Boattini},
+         familyi={B\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DAJ+1}
+    \strng{fullhash}{DAJDSGMABELSGMJWRCECMBA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{1}
+    \field{pages}{870}
+    \field{title}{First Results from the Catalina Real-Time Transient Survey}
+    \field{volume}{696}
+    \verb{file}
+    \verb /home/mauro/Zotero/storage/3GUBFIBC/Drake et al. - 2009 - First resul
+    \verb ts from the catalina real-time transien.pdf;/home/mauro/Zotero/storag
+    \verb e/ZLTHCNDZ/meta.html
+    \endverb
+    \field{journaltitle}{The Astrophysical Journal}
+    \field{year}{2009}
+  \endentry
+
+  \entry{snlightcurve}{misc}{}
+    \field{labeltitlesource}{title}
+  \field{howpublished}{https://ned.ipac.caltech.edu/level5/Branch2/Branch2\_1.html}
+    \field{title}{Type {{Ia Supernovae}} as {{Standard Candles}}}
+    \verb{file}
+    \verb /home/mauro/Zotero/storage/5WXSXBA3/Branch2_1.html
+    \endverb
+  \endentry
+
+  \entry{lc1}{misc}{}
+    \field{labeltitlesource}{title}
+  \field{howpublished}{https://imagine.gsfc.nasa.gov/science/toolbox/timing1.html}
+    \field{title}{Light {{Curves}} - {{Introduction}}}
+    \verb{file}
+    \verb /home/mauro/Zotero/storage/M6MVJCD4/timing1.html
+    \endverb
+  \endentry
+
+  \entry{lc2}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{https://www.aavso.org/about-light-curves}
+    \field{title}{About {{Light Curves}} | Aavso.Org}
+    \verb{file}
+    \verb /home/mauro/Zotero/storage/P9F8N2CG/about-light-curves.html
+    \endverb
+  \endentry
+
+  \entry{expansion}{article}{}
+    \name{author}{5}{}{%
+      {{hash=GM}{%
+         family={Goliath},
+         familyi={G\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=AR}{%
+         family={Amanullah},
+         familyi={A\bibinitperiod},
+         given={Rahman},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=AP}{%
+         family={Astier},
+         familyi={A\bibinitperiod},
+         given={P.},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=GA}{%
+         family={Goobar},
+         familyi={G\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=PR}{%
+         family={Pain},
+         familyi={P\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GM+1}
+    \strng{fullhash}{GMARAPGAPR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{1}
+    \field{pages}{6\bibrangedash 18}
+    \field{title}{Supernovae and the Nature of the Dark Energy}
+    \field{volume}{380}
+    \verb{file}
+    \verb /home/mauro/Zotero/storage/PD7NLCI7/Goliath et al. - 2001 - Supernova
+    \verb e and the nature of the dark energy.pdf;/home/mauro/Zotero/storage/ZN
+    \verb UYVGTD/aah2780.ps.html
+    \endverb
+    \field{journaltitle}{Astronomy \& Astrophysics}
+    \field{year}{2001}
+  \endentry
+
+  \entry{darkEnergy}{article}{}
+    \name{author}{3}{}{%
+      {{hash=PS}{%
+         family={Perlmutter},
+         familyi={P\bibinitperiod},
+         given={Saul},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=TMS}{%
+         family={Turner},
+         familyi={T\bibinitperiod},
+         given={Michael\bibnamedelima S.},
+         giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=WM}{%
+         family={White},
+         familyi={W\bibinitperiod},
+         given={Martin},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PS+1}
+    \strng{fullhash}{PSTMSWM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{4}
+    \field{pages}{670}
+    \field{title}{Constraining Dark Energy with Type {{Ia}} Supernovae and
+  Large-Scale Structure}
+    \field{volume}{83}
+    \verb{file}
+    \verb /home/mauro/Zotero/storage/8MRD8LCV/Perlmutter et al. - 1999 - Constr
+    \verb aining dark energy with type Ia supernovae a.pdf;/home/mauro/Zotero/s
+    \verb torage/998NXAVH/PhysRevLett.83.html
+    \endverb
+    \field{journaltitle}{Physical Review Letters}
+    \field{year}{1999}
+  \endentry
+
+  \entry{LSST}{article}{}
+    \name{author}{10}{}{%
+      {{hash=IZ}{%
+         family={Ivezic},
+         familyi={I\bibinitperiod},
+         given={Zeljko},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=TJA}{%
+         family={Tyson},
+         familyi={T\bibinitperiod},
+         given={J.\bibnamedelima A.},
+         giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=AB}{%
+         family={Abel},
+         familyi={A\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=AE}{%
+         family={Acosta},
+         familyi={A\bibinitperiod},
+         given={E.},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=AR}{%
+         family={Allsman},
+         familyi={A\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=AY}{%
+         family={AlSayyad},
+         familyi={A\bibinitperiod},
+         given={Y.},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=ASF}{%
+         family={Anderson},
+         familyi={A\bibinitperiod},
+         given={S.\bibnamedelima F.},
+         giveni={S\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=AJ}{%
+         family={Andrew},
+         familyi={A\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=AR}{%
+         family={Angel},
+         familyi={A\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=AG}{%
+         family={Angeli},
+         familyi={A\bibinitperiod},
+         given={G.},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{IZ+1}
+    \strng{fullhash}{IZTJAABAEARAYASFAJARAG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{shorttitle}{{{LSST}}}
+    \field{title}{{{LSST}}: From Science Drivers to Reference Design and
+  Anticipated Data Products}
+    \verb{file}
+    \verb /home/mauro/Zotero/storage/638MXJJ3/Ivezic et al. - 2008 - LSST from
+    \verb science drivers to reference design and.pdf;/home/mauro/Zotero/storag
+    \verb e/2PMKBPML/0805.html
+    \endverb
+    \field{journaltitle}{arXiv preprint arXiv:0805.2366}
+    \field{year}{2008}
+  \endentry
+
   \entry{diegoThesis}{misc}{}
     \name{author}{1}{}{%
       {{hash=GD}{%

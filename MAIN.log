@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.17)  5 FEB 2019 12:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.17)  5 FEB 2019 15:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1079,18 +1079,18 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (./MAIN.aux)
 \openout1 = `MAIN.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count318
@@ -1147,16 +1147,16 @@ Package biblatex Warning: BibTeX reported the following issues
 (biblatex)                - Can't use 'eprinttype' + 'archiveprefix'.
 
 )
-Package biblatex Info: Reference section=0 on input line 57.
-Package biblatex Info: Reference segment=0 on input line 57.
+Package biblatex Info: Reference section=0 on input line 62.
+Package biblatex Info: Reference segment=0 on input line 62.
 <University_of_Los_Andes_logo.png, id=4, 325.215pt x 385.44pt>
 File: University_of_Los_Andes_logo.png Graphic file (type png)
 <use University_of_Los_Andes_logo.png>
 Package pdftex.def Info: University_of_Los_Andes_logo.png  used on input line 7
-1.
+6.
 (pdftex.def)             Requested size: 117.00119pt x 138.66418pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 116--116
+Underfull \hbox (badness 10000) in paragraph at lines 121--121
 |\OT1/cmr/bx/n/17.28 Contents|
  []
 
@@ -1168,85 +1168,97 @@ logo.png>])
 \openout6 = `MAIN.toc'.
 
  [2]
+Underfull \hbox (badness 10000) in paragraph at lines 136--137
 
-LaTeX Warning: Citation 'SN_darkEnergy' on page 1 undefined on input line 136.
+ []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 146.
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--139
+
+ []
+
+<snlightcurve.jpeg, id=19, 40.83255pt x 25.2945pt>
+File: snlightcurve.jpeg Graphic file (type jpg)
+<use snlightcurve.jpeg>
+Package pdftex.def Info: snlightcurve.jpeg  used on input line 146.
+(pdftex.def)             Requested size: 312.00119pt x 193.36937pt.
+[1]
+Underfull \hbox (badness 10000) in paragraph at lines 154--155
+
+ []
+
+[2 <./snlightcurve.jpeg>]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 176.
+
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 146.
- [1] [2] [3]
-Underfull \hbox (badness 10000) in paragraph at lines 210--211
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 224--225
-
- []
-
-[4]
-Underfull \hbox (badness 10000) in paragraph at lines 232--233
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 234--235
-
- []
-
-
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 176.
+ [3] [4] [5]
 Underfull \hbox (badness 10000) in paragraph at lines 240--241
 
  []
 
-[5]
-<CNNRNNDiagram.png, id=39, 796.47563pt x 447.92343pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 254--255
+
+ []
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 262--263
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 264--265
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 270--271
+
+ []
+
+[7]
+<CNNRNNDiagram.png, id=48, 796.47563pt x 447.92343pt>
 File: CNNRNNDiagram.png Graphic file (type png)
 <use CNNRNNDiagram.png>
-Package pdftex.def Info: CNNRNNDiagram.png  used on input line 246.
+Package pdftex.def Info: CNNRNNDiagram.png  used on input line 276.
 (pdftex.def)             Requested size: 409.50119pt x 230.29698pt.
 
-Overfull \hbox (19.50119pt too wide) in paragraph at lines 246--247
+Overfull \hbox (19.50119pt too wide) in paragraph at lines 276--277
  [][] 
  []
 
-[6 <./CNNRNNDiagram.png>] [7] (./MAIN.aux)
-
-LaTeX Warning: There were undefined references.
-
-
-Package biblatex Warning: Please (re)run BibTeX on the file(s):
-(biblatex)                MAIN
-(biblatex)                and rerun LaTeX afterwards.
-
+[8 <./CNNRNNDiagram.png>] [9] [10] (./MAIN.aux)
 Package logreq Info: Writing requests to 'MAIN.run.xml'.
 \openout1 = `MAIN.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 20361 strings out of 494923
- 387045 string characters out of 6180741
- 779452 words of memory out of 5000000
- 23312 multiletter control sequences out of 15000+600000
- 10165 words of font info for 36 fonts, out of 8000000 for 9000
+ 20385 strings out of 494923
+ 387777 string characters out of 6180741
+ 779417 words of memory out of 5000000
+ 23334 multiletter control sequences out of 15000+600000
+ 10619 words of font info for 38 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 62i,6n,56p,826b,1776s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,8n,56p,793b,1776s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmti12.pfb>
-Output written on MAIN.pdf (9 pages, 201161 bytes).
+xmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmti12.pfb>
+Output written on MAIN.pdf (12 pages, 241807 bytes).
 PDF statistics:
- 74 PDF objects out of 1000 (max. 8388607)
- 50 compressed objects within 1 object stream
+ 92 PDF objects out of 1000 (max. 8388607)
+ 62 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 23 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 28 words of extra memory for PDF output out of 10000 (max. 10000000)
 
