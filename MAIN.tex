@@ -166,7 +166,33 @@ The Large Synoptic Survey Telescope is a project that will begin operating in 20
   \item Mapping the Milky Way
 \end{enumerate}
 
+Unlike other telescopes of its nature, from the moment it begins operation, the LSST will release its data to the public. It plans on gathering 15 terabytes of data every night, generating alerts and transferring data with a 60 second delay \cite{LSST}.\\
+
+With that amount of data, there simply aren't enough experts to classify all of the objects of interest. New automated techniques are needed to correctly classify all of the observed objects and notify the corresponding interested scientists.\\ 
+
+Consequently, the motive behind this project is to provide an approximated solution to the problem outlined above. 
+
 \section{Problem description}
+
+As stated in the previous section, the motivation behind this project is to create an algorithm that automates the classification of astronomical objects. The classification can be done directly on the images released by the CSS \cite{catalina} or on the light curves extracted from the images. 
+
+
+
+
+\subsection{Classification of transient objects from light curves}
+
+One of the main aims to develop an algorithm that correctly maps the light curve of an object to its corresponding category. It is unrealistic to claim that the function will correctly classify every single light curve it is provided. Nevertheless, it does aim to minimize classification errors. \\
+
+There will be 2 main approaches to achieve this goal. The first will be to transfer the light curves into a feature space that attempts to extract many geometric properties of the light curves. After that, several classifiers will be applied over the data points in the feature space. These include random forests and feed forward neural networks.\\
+
+The second approach involves feeding the points to a recurrent neural network that will in turn be fed into a feed forward neural network. 
+
+\subsection{Classification of transient objects from images}
+
+The second main aim of this proposed thesis is to develop an algorithm that correctly classifies astronomical objects from a series of \textit{images}. 
+
+The techniques outlined above will be explained in further detail in the upcoming sections. 
+
 \section{Project Background}
 
 \subsection{Diego's thesis - 2018-10}
