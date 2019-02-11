@@ -39,6 +39,8 @@
 \usepackage[colorinlistoftodos]{todonotes}
 \usepackage{titlesec}
 \usepackage{float}
+\usepackage{multicol}
+
 %to include references in toc
 \usepackage[nottoc,numbib]{tocbibind}
 %bibliography package
@@ -151,7 +153,7 @@ Light curves hold a lot of information about the behavior of the object and can 
 
 \subsubsection{Supernovae}
 
-Supernovae, specially type 1a supernovae, are of immense importance in present day astrophysics. They are used as ``standard candles''\footnote{A standard candle is a celestial object whose properties are optimal to measure large distances in the universe with high precision. } to estimate the rate of expansion of the universe \cite{expansion}. So far, they have been used to pin down the cosmological constant (also known as Hubble's constant) to demonstrate the accelerating expansion of the universe; ``implying the existence of a nearly uniform component of dark energy''\cite{darkEnergy}.\\
+Supernovae, specially type 1a supernovae, are of immense importance in present day astrophysics. They are used as ``standard candles''\footnote{A standard candle is a celestial object whose properties are optimal to measure large distances in the universe with high precision. } to estimate the rate of expansion of the universe \cite{expansion}. So far, they have been used to pin down the cosmological constant (also known as Hubble's constant) and demonstrate the accelerating expansion of the universe. This has had a huge impact on our understanding of the universe. Particularly because it ``impl[ies] the existence of a nearly uniform component of dark energy''\cite{darkEnergy} across space. \\
 
 Finding and studying supernovae not only sheds light into their nature, it has implications that stretch out to the inner workings of the universe.
 
@@ -168,15 +170,11 @@ The Large Synoptic Survey Telescope is a project that will begin operating in 20
 
 Unlike other telescopes of its nature, from the moment it begins operation, the LSST will release its data to the public. It plans on gathering 15 terabytes of data every night, generating alerts and transferring data with a 60 second delay \cite{LSST}.\\
 
-With that amount of data, there simply aren't enough experts to classify all of the objects of interest. New automated techniques are needed to correctly classify all of the observed objects and notify the corresponding interested scientists.\\ 
-
-Consequently, the motive behind this project is to provide an approximated solution to the problem outlined above. 
+With that amount of data, there simply aren't enough experts to classify all of the objects of interest. New automated techniques are needed to correctly classify all of the observed objects and notify the corresponding interested scientists.Consequently, the motive behind this project is to develop an automatic classifier of astronomical objects. \\
 
 \section{Problem description}
 
 As stated in the previous section, the motivation behind this project is to create an algorithm that automates the classification of astronomical objects. The classification can be done directly on the images released by the CSS \cite{catalina} or on the light curves extracted from the images. 
-
-
 
 
 \subsection{Classification of transient objects from light curves}
@@ -189,46 +187,25 @@ The second approach involves feeding the points to a recurrent neural network th
 
 \subsection{Classification of transient objects from images}
 
-The second main aim of this proposed thesis is to develop an algorithm that correctly classifies astronomical objects from a series of \textit{images}. 
+The second main aim of this proposed thesis is to develop an algorithm that correctly classifies astronomical objects from a series of \textit{images}. \\
 
-The techniques outlined above will be explained in further detail in the upcoming sections. 
+In brief, the aim is to implement a convolutional neural network that extracts descriptors from the images. Following this procedure, the extracted descriptors will be fed into a recurrent neural network that will have a fully connected layer attached at the end. The output of this architecture will be an $n$ dimension vector corresponding to the $n$ classes that the astronomical object can belong to. See section \ref{NNarchitecture} for further details.\\
 
 \section{Project Background}
 
 \subsection{Diego's thesis - 2018-10}
 
-In the first semester of 2018, Diego Alejandro G\'omez Mosquera worked on ``Astronomical transient event recognition with machine learning'' using random forests on a feature space calculated from light curves \cite{diegoThesis}.The author focused on creating a feature space robust enough to distinguish the different transient classes. This was achieved primarily through geometric parameters that were extracted from the light curves. The features used (as found on the author's thesis) were: 
-\begin{itemize}
-  \item skew: Skewness.
-  \item kurtosis: Kurtosis.
-  \item small kurtosis: Small sample kurtosis.
-  \item std: Standard deviation.
-  \item beyond1std: Percentage of magnitudes beyond one standard deviation from the weighted mean. Each weights is calculated as the inverse of the corresponding photometric error.
-  \item stetson j: The Welch-Stetson J variability index [39]. A robust standard deviation.
-  \item stetson k: The Welch-Stetson K variability index [39]. A robust kurtosis measure.
-  \item max slope: Maximum absolute slope (delta magnitude over deltatime) between two consecutive observations.
-  \item amplitude: Difference between maximum and minimum magnitudes.
-  \item median absolute deviation:from the median magnitude.
-  \item median buffer range percentage: Percentage of points within 10\% of the median magnitude.
-  \item pair slope trend: Percentage of all pairs of consecutive magnitude measurements that have positive slope.
-  \item percent amplitude: Largest percentage difference between the absolute maximum magnitude and the median.
-  \item percent difference flux percentile: Ratio of F 5,95 and the median flux.
-  \item flux percentile ratio mid20: Ratio F 40,60 /F 5,95
-  \item flux percentile ratio mid35: Ratio F 32.5,67.5 /F 5,95
-  \item flux percentile ratio mid50: Ratio F 25,75 /F 5,95
-  \item flux percentile ratio mid65: Ratio F 17.5,82.5 /F 5,95
-  \item flux percentile ratio mid80: Ratio F 10,90 /F 5,95
-  \item poly1 a: Coefficient of the linear term in monomial curve fitting.
-  \item poly2 a: Coefficient of the cuadratic term in cuadratic curve fitting.
-  \item poly2 b: Coefficient of the linear term in cuadratic curve fitting.
-  \item poly3 a: Coefficient of the cubic term in cubic curve fitting.
-  \item poly3 b: Coefficient of the cuadratic term in cubic curve fitting.
-  \item poly3 c: Coefficient of the linear term in cubic curve fitting.
-  \item poly4 a: Coefficient of the quartic term in quartic curve fitting.
-  \item poly4 b: Coefficient of the cubic term in quartic curve fitting.
-  \item poly4 c: Coefficient of the cuadratic term in quartic curve fitting.
-  \item poly4 d: Coefficient of the linear term in quartic curve fitting.
-\end{itemize}
+In the first semester of 2018, Diego Alejandro G\'omez Mosquera worked on ``Astronomical transient event recognition with machine learning'' using a variety of traditional machine learning classifiers on a feature space calculated from light curves \cite{diegoThesis}.\\ 
+
+The author focused on creating a feature space robust enough to distinguish the different transient classes. This was achieved primarily through geometric parameters that were extracted from the light curves. The features used and their importance during classification (as found on the author's thesis) for 8-class classification were: 
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=1.05\textwidth]{images/importances.png}
+  \caption{Feature importance when classifying light curves into 8 classes.}
+\end{figure}
+
+Out of all of the classifiers used, the classifier with the best results was the random forest classifier. 
 
 The results from the authors thesis will not be presented here as a bug overrating the classification was found as will be discussed in the following section.
 
@@ -291,7 +268,7 @@ The state of the art algorithms used for classifying images are known as convolu
 
 The first step to correctly classify the images will be to implement a baseline CNN algorithm. Once its classification  metrics are established, a thorough search through the hyperparameter space will be carried out to maximize the classification metrics.
 
-\subsubsection{CNNs and RNNs}
+\subsubsection{CNNs and RNNs}\label{NNarchitecture}
 
 Implementing a succesful CNN is only half of the problem. Each object has multiple images taken at different instances in time. To fully exploit the available information, multiple images need to be used as input for each object.\\
 
