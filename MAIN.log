@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.17)  11 FEB 2019 13:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.17)  11 FEB 2019 15:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1281,51 +1281,79 @@ Overfull \hbox (19.50119pt too wide) in paragraph at lines 204--205
  [][] 
  []
 
-[4] [5 <./images/importances.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 243--244
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 216--217
 
  []
 
-[6]
-Underfull \hbox (badness 10000) in paragraph at lines 257--258
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 218.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 218.
+
+Underfull \hbox (badness 10000) in paragraph at lines 218--219
 
  []
 
+[5 <./images/importances.png>]
+<images/competition.png, id=43, 1939.245pt x 702.625pt>
+File: images/competition.png Graphic file (type png)
+<use images/competition.png>
+Package pdftex.def Info: images/competition.png  used on input line 228.
+(pdftex.def)             Requested size: 409.50119pt x 148.3704pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 265--266
+Overfull \hbox (19.50119pt too wide) in paragraph at lines 228--229
+ [][] 
+ []
+
+[6 <./images/competition.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 258--259
 
  []
 
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 267--268
+Underfull \hbox (badness 10000) in paragraph at lines 272--273
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 273--274
+Underfull \hbox (badness 10000) in paragraph at lines 280--281
 
  []
 
-<CNNRNNDiagram.png, id=50, 796.47563pt x 447.92343pt>
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 282--283
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 288--289
+
+ []
+
+<CNNRNNDiagram.png, id=55, 796.47563pt x 447.92343pt>
 File: CNNRNNDiagram.png Graphic file (type png)
 <use CNNRNNDiagram.png>
-Package pdftex.def Info: CNNRNNDiagram.png  used on input line 279.
+Package pdftex.def Info: CNNRNNDiagram.png  used on input line 294.
 (pdftex.def)             Requested size: 409.50119pt x 230.29698pt.
 
-Overfull \hbox (19.50119pt too wide) in paragraph at lines 279--280
+Overfull \hbox (19.50119pt too wide) in paragraph at lines 294--295
  [][] 
  []
 
-[8] [9 <./CNNRNNDiagram.png>] [10] [11] (./MAIN.aux)
+[9] [10 <./CNNRNNDiagram.png>] [11] [12] (./MAIN.aux)
 Package logreq Info: Writing requests to 'MAIN.run.xml'.
 \openout1 = `MAIN.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 20488 strings out of 494923
- 389331 string characters out of 6180741
+ 20516 strings out of 494923
+ 389923 string characters out of 6180741
  784019 words of memory out of 5000000
- 23435 multiletter control sequences out of 15000+600000
+ 23459 multiletter control sequences out of 15000+600000
  10619 words of font info for 38 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  62i,8n,56p,793b,1776s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1339,10 +1367,10 @@ t/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts
 ublic/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmti12.pfb>
-Output written on MAIN.pdf (13 pages, 274113 bytes).
+Output written on MAIN.pdf (14 pages, 574783 bytes).
 PDF statistics:
- 98 PDF objects out of 1000 (max. 8388607)
- 65 compressed objects within 1 object stream
+ 103 PDF objects out of 1000 (max. 8388607)
+ 67 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 33 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 38 words of extra memory for PDF output out of 10000 (max. 10000000)
 

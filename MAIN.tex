@@ -197,7 +197,7 @@ In brief, the aim is to implement a convolutional neural network that extracts d
 
 In the first semester of 2018, Diego Alejandro G\'omez Mosquera worked on ``Astronomical transient event recognition with machine learning'' using a variety of traditional machine learning classifiers on a feature space calculated from light curves \cite{diegoThesis}.\\ 
 
-The author focused on creating a feature space robust enough to distinguish the different transient classes. This was achieved primarily through geometric parameters that were extracted from the light curves. The features used and their importance during classification (as found on the author's thesis) for 8-class classification were: 
+The author focused on creating a feature space robust enough to distinguish the different transient classes. This was achieved primarily through geometric parameters that were extracted from the light curves. The features used and their importance during classification (as found on the author's thesis) for 8-class classification using a random forest classifier were: 
 
 \begin{figure}[H]
   \centering
@@ -205,16 +205,31 @@ The author focused on creating a feature space robust enough to distinguish the 
   \caption{Feature importance when classifying light curves into 8 classes.}
 \end{figure}
 
-Out of all of the classifiers used, the classifier with the best results was the random forest classifier. 
+The classification metrics from the authors thesis will not be presented here as their validity is being revised for publication.
 
-The results from the authors thesis will not be presented here as a bug overrating the classification was found as will be discussed in the following section.
+\subsection{Research assistant work - 2018-20}
 
-\subsection{research internship?? No se como ponerle a esto 2018-2}
+During the second semester of 2018, I enrolled as a research assistant of Juan Pablo Reyes, Marcela Hernandez's Ph.D. student. During this time, several results relevant to this thesis were achieved. 
 
-\subsubsection{Improvement on Diego's work}\label{improvementDiego}
-Diego's work was continued and improved during this semester with the mentorship of Marcela Hern\'andez, Jaime Forero and Pablo Arbelaez. 
+\subsubsection{Extension of Diego's work}\label{improvementDiego}
+
+Diego's classification used the only filter provided by CSS \cite{catalina}, the $r$ filter. Naturally, one would like to extend the classification algorithm to include a variety of filters. The first extension of the algorithm was to include an arbitrary number of filters. \\
+
+Since CSS's light curves only contain data on the $r$ filter\cite{catalina}, a combination of data from the CFHT survey\cite{cfht} and simulations run by Juan Pablo Reyes was used instead . The data had 4 filters in total : \{r,i,g,z\}.\\
+
+It is worth noting that the original data for the algorithm was in magnitude while the CFHT data was in flux. Early experimentation demonstrated that classification in flux was very poor as it distorted the geometric properties of the light curves\footnote{Conversion between these units involves a logarithmic scale thus the y-axis is greatly distorted, leading to inaccurate geometric fitting of data.}. Additionally, considerable problems arose when converting flux to magnitude. Empirically, the classification metrics decreased. This is one of the main motivations for using the raw data from the light curves. 
 
 \subsubsection{PLAsTiCC - Kaggle competition}
+
+In the second semester of 2018, the LSST team launched a competition based on simulated data\cite{kaggle}. The data included 6 filters \{$u, g, r, i, z, y$\} and a total of 14 numbered but unlabeled classes. The multifilter approach from the previous section was implemented with a varying number of filters. Intuitively and experimentally, as demonstrated in the following table, the classification metrics improved as more filters were added: 
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=1.05\textwidth]{images/competition.png}
+  \caption{Classification results for the PLAsTiCC competition.}
+\end{figure}
+
+
 
 
 \section{General objective}

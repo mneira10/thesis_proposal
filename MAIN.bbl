@@ -315,6 +315,55 @@
     \field{year}{2018}
   \endentry
 
+  \entry{cfht}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=CGoCNRC}{%
+         family={Canada},
+         familyi={C\bibinitperiod},
+         given={Government of Canada National Research\bibnamedelima Council},
+         giveni={G\bibinitperiod\bibinitdelim o\bibinitperiod C\bibinitperiod
+  N\bibinitperiod R\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {eng}%
+    }
+    \strng{namehash}{CGoCNRC1}
+    \strng{fullhash}{CGoCNRC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    NRC Herzberg is Canada's gateway to the stars. In addition to operating the
+  government's observatories and a national astronomy data centre, we develop
+  advanced scientific instruments for astronomical observatories in
+  collaboration with industrial partners \dbend{} bringing out-of-this-world
+  technology back down to Earth.%
+    }
+    \field{howpublished}{http://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/cfht/}
+    \field{title}{National Science Infrastructure ({{NRC Herzberg}},
+  {{Programs}} in {{Astronomy}} and {{Astrophysics}}) - {{National Research
+  Council Canada}}}
+    \verb{file}
+    \verb /home/mauro/Zotero/storage/C6459EBV/cfht.html
+    \endverb
+    \field{type}{Contact Information; Organizational Description; Promotional
+  Material}
+    \field{month}{04}
+    \field{year}{2013}
+  \endentry
+
+  \entry{kaggle}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Can you help make sense of the Universe?%
+    }
+    \field{howpublished}{https://kaggle.com/c/PLAsTiCC-2018}
+    \field{title}{{{PLAsTiCC Astronomical Classification}}}
+    \verb{file}
+    \verb /home/mauro/Zotero/storage/AXAXRM9X/PLAsTiCC-2018.html
+    \endverb
+  \endentry
+
   \entry{salt2}{article}{}
     \name{author}{25}{}{%
       {{hash=GJ}{%
