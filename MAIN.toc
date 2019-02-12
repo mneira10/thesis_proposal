@@ -35,20 +35,20 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {5.1.1}Feature pruning}{7}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.1.2}Addition of supernovae specific metrics}{7}
+\contentsline {subsubsection}{\numberline {5.1.2}Addition of supernovae specific metrics}{8}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{SALT2}{7}
+\contentsline {paragraph}{SALT2}{8}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Skewed Gaussian}{7}
+\contentsline {paragraph}{Skewed Gaussian}{8}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.2}Deep learning on light curves}{8}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3}Deep learning on images}{8}
+\contentsline {subsection}{\numberline {5.3}Deep learning on images}{9}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.3.1}CNNs}{8}
+\contentsline {subsubsection}{\numberline {5.3.1}CNNs}{9}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.3.2}CNNs and RNNs}{9}
+\contentsline {subsubsection}{\numberline {5.3.2}CNNs and RNNs}{10}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6}Activities and schedule}{10}
+\contentsline {section}{\numberline {6}Activities and schedule}{11}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7}Expected results}{10}
+\contentsline {section}{\numberline {7}Expected results}{11}

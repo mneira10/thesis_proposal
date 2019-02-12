@@ -40,7 +40,7 @@
 \usepackage{titlesec}
 \usepackage{float}
 \usepackage{multicol}
-
+\usepackage{graphicx}
 %to include references in toc
 \usepackage[nottoc,numbib]{tocbibind}
 %bibliography package
@@ -85,7 +85,7 @@
 %----------------------------------------------------------------------------------------
 
 \HRule \\[0.4cm]
-{ \Large \bfseries Transient object classification using machine learning and deep learning techniques on real data}\\[0.4cm] % Title of your document
+{ \Large \bfseries Astronomical transient object classification using machine learning and deep learning techniques on real data}\\[0.4cm] % Title of your document
 \HRule \\[1.5cm]
  
 %----------------------------------------------------------------------------------------
@@ -223,7 +223,7 @@ It is worth noting that the original data for the algorithm was in magnitude whi
 
 In the second semester of 2018, the LSST team launched a competition based on simulated data\cite{kaggle}. The data included 6 filters \{$u, g, r, i, z, y$\} and a total of 14 numbered but unlabeled classes. The multifilter approach from the previous section was implemented with a varying number of filters. Intuitively and experimentally, as demonstrated in the following table, the classification metrics improved as more filters were added: 
 
-\begin{figure}[H]
+\begin{figure}[H]\label{competition}
   \centering
   \includegraphics[width=1.05\textwidth]{images/competition.png}
   \caption{Classification results for the PLAsTiCC competition. The numbers in the columns correspond to the area under the precision recall curve for each one of the classes. Numbers close to red are shaded red while numbers close to 1 are not shaded.}
@@ -234,7 +234,20 @@ Apart from the multifilter classification, a recurrent neural network was traine
 
 \section{General objective}
 
+The general objective of this thesis is to develop an algorithm that can classify, as best as possible, astronomical objects into their corresponding class. Based on the catalina sky survey, the possible classes are:
 
+\begin{itemize}
+  \item Active galactic nuclei
+  \item Blazar
+  \item Cataclysmic variable
+  \item Flare 
+  \item High proper motion star
+  \item Supernova 
+  \item Other (all transient objects not listed in the categories above)
+  \item Non-transient
+\end{itemize}
+
+Two approaches will be taken to manage this objective. The first will be to use the light curve information as input. The second will be to use the whole images as the input.
 
 \section{Specific objectives}
 
@@ -242,7 +255,7 @@ Apart from the multifilter classification, a recurrent neural network was traine
 
 \subsubsection{Feature pruning}
 
-After seeing the results in \ref{improvementDiego}, \textbf{REVISAR ESTO}, it was clear that the higher order coefficients in the polynomial fits did not contribute significantly to the correct classification in the feature space. In fact, these features could be harming the classification process. Thus, coefficients resulting from $3^{rd}$ and $4^{th}$ degree polynomial fitting will be removed and the random forest algorithm will be rerun. The classification metrics should improve but experimentation is needed to confirm the hypothesis.  
+After seeing the results in \ref{improvementDiego}, it was clear that the higher order coefficients in the polynomial fits did not contribute significantly to the correct classification in the feature space. In fact, these features could be harming the classification process. Thus, coefficients resulting from $3^{rd}$ and $4^{th}$ degree polynomial fitting will be removed and the random forest algorithm will be rerun. The classification metrics should improve but experimentation is needed to confirm the hypothesis.  
 
 \subsubsection{Addition of supernovae specific metrics}
 
@@ -300,9 +313,31 @@ Since the amount of images per object is not fixed, a RNN will need to be used. 
 
 \section{Activities and schedule}
 
+% Please add the following required packages to your document preamble:
+% \usepackage{graphicx}
+\begin{table}[H]
+  \resizebox{\textwidth}{!}{%
+  \begin{tabular}{|c|l|}
+  \hline
+  \textbf{Time}         & \multicolumn{1}{c|}{\textbf{Activities}}                                                                                                                                                   \\ \hline
+  28 Jan - mid February & Improvement of feature space from light curves                                                                                                                                             \\ \hline
+  mid February - March  & \begin{tabular}[c]{@{}l@{}}1. Implementation and hyperparameter tuning of CNN for extraction of descriptors from images\\ 2. Use of RNN to classify objects from light curves\end{tabular} \\ \hline
+  March - April         & Implement RNN on top of previously implemented CNN. Further tuning of previous neural networks.                                                                                            \\ \hline
+  April - May           & Documentation                                                                                                                                                                              \\ \hline
+  \end{tabular}%
+  }
+  \end{table}
 
 \section{Expected results}
 
+With respect to the light curve based approach, several improvements are expected: \\
+
+First of all, the addition of the $\chi^2$ values for the SALT2 and skew gaussian fits should improve the classification of supernovas. \\
+
+
+Secondly, if the RNN used to classify the light curves is let to learn for an increased number of epochs, an increase in the area under the PR curve for all of the classes is expected based on the results found in \ref{competition}. \\
+
+On the other hand, with regard to the classification of objects using the images as inputs, considerable improvements in classification metrics is expected. This expectation is based on the fact that the image as whole has a lot more information about the object than the light curve alone. 
 
 \newpage
 \printbibliography
